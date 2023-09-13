@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maid Profile</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 800px;
+            padding: 70px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Profile Header Styles */
+        .profile-header {
+            padding: 70px 0;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 10px;
+            display: block;
+        }
+
+        .maid-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Profile Info Styles */
+        .profile-info {
+            margin-top: 20px;
+        }
+
+        /* Button Styles */
+        .choose-maid-button {
+            background-color: #66b3cc;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .choose-maid-button:hover {
+            background-color: #3385a9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="maid-profile.jpg" alt="Maid Profile" class="profile-picture">
+            <div class="maid-name">Maid's Name</div>
+        </div>
+        <div class="profile-info">
+            <!-- Display other profile information dynamically here -->
+            <p><strong>Age:</strong> 30</p>
+            <p><strong>Religion:</strong> Christian</p>
+            <p><strong>Residence:</strong> Addis Ababa</p>
+            <p><strong>Experience:</strong> 2-3 years</p>
+            <p><strong>Expected Salary:</strong> ETB 3000-4000</p>
+            <!-- Add more profile information as needed -->
+        </div>
+        <button class="choose-maid-button">Choose This Maid</button>
+    </div>
+</body>
+</html>
+
